@@ -8,15 +8,10 @@ class ClassCounter extends Component {
              name:""
         }
     }
-
     componentDidMount(){
-      
-      
-        document.title=`Clicked ${this.state.count} times`
+      document.title=`Clicked ${this.state.count} times`
     }
-
     componentDidUpdate(prevProps,prevState ){
-        
         if(prevState.count!=this.state.count){
             console.log("updation title")
            }
@@ -32,5 +27,4 @@ class ClassCounter extends Component {
         )
     }
 }
-
 export default ClassCounter

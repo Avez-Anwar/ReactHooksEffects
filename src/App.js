@@ -12,6 +12,15 @@ import CounterReducer2 from './Hooks/CounterReducer2';
 import CounterReducer3 from "./Hooks/CounterReducer3"
 import DataFetchingOne from './DataFetchingOne';
 import DataFetchingTwo from './DataFetchingTwo';
+import ParentComponent from './Components/ParentComponent';
+import CounterUseMemo from './CounterUseMemo';
+import FocusInput from './FocusInput';
+import HookTimer from './HookTimer';
+import CustomeHookOne from './CustomeHookOne';
+import CustomeHookTwo from './CustomeHookTwo';
+import CustomeHookFour from './CustomeHookFour';
+import CustomeHookFive from './CustomeHookFive';
+import UserForm from './UserForm';
 
 function App() {
 
@@ -33,7 +42,16 @@ function App() {
   {/*<CounterReducer3/>*/}
   {/*<Main/>*/}
   {/*<DataFetchingOne/>*/}
-  <DataFetchingTwo/>
+  {/*<DataFetchingTwo/>*/}
+  {/*<ParentComponent/>*/}
+  {/*<CounterUseMemo/>*/}
+  {/*<FocusInput/>*/}
+  {/*<HookTimer/>*/}
+  {/*<CustomeHookOne/>*/}
+  {/*<CustomeHookTwo/>*/}
+  {/*<CustomeHookFive/>*/}
+  {/*<CustomeHookFour/>*/}
+  <UserForm/>
     </div>
   );
 }

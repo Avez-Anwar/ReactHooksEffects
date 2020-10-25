@@ -7,7 +7,6 @@ const initialState={
     loading:true,
     error:" ",
     post:{ }
-    
 }
 
 const reducer=(state,action)=>{
